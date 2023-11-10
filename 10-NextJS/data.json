@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "tag": "input",
+      "type": "text",
+      "label": "Nombre completo",
+      "name": "full_name",
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": "email",
+      "label": "Correo electrónico",
+      "name": "email",
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "label": "Fecha de nacimiento",
+      "name": "birth_date",
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": "select",
+      "label": "¿Cuál es tu país de origen?",
+      "name": "country_of_origin",
+
+      "required": true
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "label": "¿Acepta los términos y condiciones?",
+      "name": "terms_and_conditions",
+      "required": true
+    },
+    { "tag": "button", "type": "submit", "label": "Enviar" }
+  ]
+}
